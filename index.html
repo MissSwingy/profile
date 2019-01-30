@@ -9,102 +9,126 @@
   </head>
 
   <body>
-
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/eleonore-280x280.jpg" alt="Eléonore Selly" id="img-profile" class="img-circle">
-        <h1>Eléonore Selly</h1>
-        <h2>Dev Fullstack @Le Wagon</h2>
-
-        <p class="description">
-          Fan de Marvel et de boxe connectée (oui ça existe !) , j’ai toujours été curieuse et passionnée par les nouvelles technologies qui révolutionnent nos vies et nos usages. Mon parcours riche et atypique ainsi que ma formation de «Chef de Projet Multimédia» m’ont révélé que l’on pouvait être à la fois digitale, stratégique et créative et que ce métier était fait pour moi...
-          <br><strong>Je me lance un nouveau défi, savoir coder mes propres applis et jongler avec Ruby comme une vraie geek avertie </strong>!
-        </p>
-
-        <a href="https://e-selly.fr" target="_blank" class="btn-red">mon portfolio</a>
-    </div>
-
-    <div class="card text-center">
-      <ul class="list-inline">
-        <li class="text-center">
-          <a href="https://www.facebook.com/eleonore.selly" target="_blank">
-            <i class="fa fa-facebook"></i> <br>Facebook
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-user-secret fa-lg"></i>
           </a>
         </li>
-        <li class="text-center">
-          <a href="https://www.linkedin.com/in/eleonore-selly-9b413336" target="_blank">
-            <i class="fa fa-linkedin"></i> <br>Linkedin
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-film fa-lg"></i>
           </a>
         </li>
-        <li class="text-center">
-          <a href="https://twitter.com/MissSwingy" target="_blank">
-            <i class="fa fa-twitter"></i> <br>Twitter
+        <li>
+          <a href="#footer">
+            <i class="fa fa-paw fa-lg"></i>
           </a>
         </li>
       </ul>
     </div>
 
-    <div class="card text-center">
-      <h2>My Favorite movies</h2>
+    <div id="page-content">
+      <div class="container">
+        <div class="card text-center" id="summary">
+          <img src="images/eleonore-280x280.jpg" alt="Eléonore Selly" id="img-profile" class="img-circle">
+          <h1>Eléonore Selly</h1>
+          <h2>Dev Fullstack @Le Wagon</h2>
 
-      <table id="movies">
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/the-shawshank-redemption-340x340.jpg" alt="the shawsshank redemption">
-            </td>
-            <td>
-              <h3>Les Evadés</h3>
-              <p>En 1947, Andy Dufresne, un jeune banquier, est condamné à la prison à vie pour le meurtre de sa femme et de son amant. Ayant beau clamer son innocence, il est emprisonné à `Shawshank', le pénitencier le plus sévère de l'Etat du Maine...</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/greatest-showman-340x340.jpg" alt="the greatest shoman">
-            </td>
-            <td>
-              <h3>The Greatest Shoman</h3>
-              <p>Dans les années 1870, l'entrepreneur américain Phineas Taylor Barnum voit ses affaires se développer, notamment grâce aux `freak shows' et autres spectacles de cirque. P.T. Barnum est un visionnaire parti de rien pour créer un spectacle devenu un phénomène planétaire : le cirque Barnum & Bailey...</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/avengers-infinity-war-340x340.jpg" alt="avengers infinity war">
-            </td>
-            <td>
-              <h3>Avengers Infinity War</h3>
-              <p>Alors que les Avengers et leurs alliés ont continué de protéger le monde face à des menaces bien trop grandes pour être combattues par un héros seul, un nouveau danger est venu de l'espace : Thanos. Despote craint dans tout l'univers, Thanos a pour objectif de recueillir les six Pierres d'Infinité, des artefacts parmi les plus puissants de l'univers, et de les utiliser afin d'imposer sa volonté sur toute la réalité...</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+          <p class="description">
+            Fan de Marvel et de boxe connectée (oui ça existe !) , j’ai toujours été curieuse et passionnée par les nouvelles technologies qui révolutionnent nos vies et nos usages. Mon parcours riche et atypique ainsi que ma formation de «Chef de Projet Multimédia» m’ont révélé que l’on pouvait être à la fois digitale, stratégique et créative et que ce métier était fait pour moi...
+            <br><strong>Je me lance un nouveau défi, savoir coder mes propres applis et jongler avec Ruby comme une vraie geek avertie </strong>!
+          </p>
+
+          <a href="https://e-selly.fr" target="_blank" class="btn-red">mon portfolio</a>
+        </div>
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li class="text-center">
+              <a href="https://www.facebook.com/eleonore.selly" target="_blank">
+                <i class="fa fa-facebook"></i> <br>Facebook
+              </a>
+            </li>
+            <li class="text-center">
+              <a href="https://www.linkedin.com/in/eleonore-selly-9b413336" target="_blank">
+                <i class="fa fa-linkedin"></i> <br>Linkedin
+              </a>
+            </li>
+            <li class="text-center">
+              <a href="https://twitter.com/MissSwingy" target="_blank">
+                <i class="fa fa-twitter"></i> <br>Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card text-center" id="favorite-movies">
+          <h2>My Favorite movies</h2>
+
+          <table id="movies">
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/the-shawshank-redemption-340x340.jpg" alt="the shawsshank redemption">
+                </td>
+                <td>
+                  <h3>Les Evadés</h3>
+                  <p>En 1947, Andy Dufresne, un jeune banquier, est condamné à la prison à vie pour le meurtre de sa femme et de son amant. Ayant beau clamer son innocence, il est emprisonné à `Shawshank', le pénitencier le plus sévère de l'Etat du Maine...</p>
+                  <a class="btn-movie" href="http://www.allocine.fr/video/player_gen_cmedia=19376413&cfilm=11736.html" target="_blank">
+                  <span class="txt">Bande-annonce</span></a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/greatest-showman-340x340.jpg" alt="the greatest shoman">
+                </td>
+                <td>
+                  <h3>The Greatest Shoman</h3>
+                  <p>Dans les années 1870, l'entrepreneur américain Phineas Taylor Barnum voit ses affaires se développer, notamment grâce aux `freak shows' et autres spectacles de cirque. P.T. Barnum est un visionnaire parti de rien pour créer un spectacle devenu un phénomène planétaire : le cirque Barnum & Bailey...</p>
+                  <a class="btn-movie" href="http://www.allocine.fr/video/player_gen_cmedia=19376413&cfilm=11736.html" target="_blank">
+                  <span class="txt">Bande-annonce</span></a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/avengers-infinity-war-340x340.jpg" alt="avengers infinity war">
+                </td>
+                <td>
+                  <h3>Avengers Infinity War</h3>
+                  <p>Alors que les Avengers et leurs alliés ont continué de protéger le monde face à des menaces bien trop grandes pour être combattues par un héros seul, un nouveau danger est venu de l'espace : Thanos. Despote craint dans tout l'univers, Thanos a pour objectif de recueillir les six Pierres d'Infinité, des artefacts parmi les plus puissants de l'univers, et de les utiliser afin d'imposer sa volonté sur toute la réalité...</p>
+                  <a class="btn-movie" href="http://www.allocine.fr/video/player_gen_cmedia=19376413&cfilm=11736.html" target="_blank">
+                  <span class="txt">Bande-annonce</span></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card text-center" id="footer">
+          <h2>About this page</h2>
+          This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>.
+
+          <ul class="list-inline">
+           <li>
+             <a href="#">
+               <i class="fa fa-heart"></i>
+             </a>
+           </li>
+           <li>
+             <a href="#">
+               <i class="fa fa-share"></i>
+             </a>
+           </li>
+           <li>
+             <a href="#">
+               <i class="fa fa-star"></i>
+             </a>
+           </li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-
-    <div class="card text-center">
-      <h2>About this page</h2>
-      This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>.
-
-      <ul class="list-inline">
-       <li>
-         <a href="#">
-           <i class="fa fa-heart"></i>
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <i class="fa fa-share"></i>
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <i class="fa fa-star"></i>
-         </a>
-       </li>
-      </ul>
-    </div>
-  </div>
-
   </body>
 </html>
 
